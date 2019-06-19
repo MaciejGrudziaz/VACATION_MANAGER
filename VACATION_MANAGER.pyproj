@@ -1,0 +1,70 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>41b92af2-02de-4fd1-8295-83490039a328</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>VACATION_MANAGER.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>VACATION_MANAGER</Name>
+    <RootNamespace>VACATION_MANAGER</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DataEngine.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EditMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileManager.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainTable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MenuBar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PDFcreator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RootEvents.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RootWindow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VACATION_MANAGER.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+    <InterpreterReference Include="Global|PythonCore|3.6-32" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

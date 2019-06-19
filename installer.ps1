@@ -1,0 +1,1 @@
+pyinstaller --name "Urlopy.exe" --onefile --paths "C:\Windows\WinSxS\x86_microsoft-windows-m..namespace-downlevel_31bf3856ad364e35_10.0.17134.1_none_50c6cb8431e7428f" --windowed --icon=81_WAW_RESOURCES\logo_ikona.ico .\VACATION_MANAGER.py
