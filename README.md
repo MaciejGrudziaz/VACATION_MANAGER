@@ -7,6 +7,8 @@ clear interface, so the user can easily check, add or modify data. You can also 
 format if needed. Program is summing and displaying the vacation and sick days in chosen year for all added persons in the database, 
 and it's calculating how many vacation days they're left.
 
+At the current moment, program supports only polish language version.
+
 **How to build (Windows):**
 - you will need following Python extensions: **reportlab**, **Pillow**, **PyInstaller**
 - **appdata.bat** script is creating special directroiry in *AppData/Local* for program's config file
