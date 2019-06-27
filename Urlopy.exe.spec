@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['VACATION_MANAGER.py'],
-             pathex=['C:\\Windows\\WinSxS\\x86_microsoft-windows-m..namespace-downlevel_31bf3856ad364e35_10.0.17134.1_none_50c6cb8431e7428f', 'C:\\Users\\Maciek\\Documents\\BELSAN\\VACATION_MANAGER\\VACATION_MANAGER'],
+             pathex=['C:\\Windows\\WinSxS\\x86_microsoft-windows-m..namespace-downlevel_31bf3856ad364e35_10.0.17134.1_none_50c6cb8431e7428f', 'D:\\Projects\\VACATION_MANAGER\\VACATION_MANAGER'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -29,4 +29,4 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=False , icon='81_WAW_RESOURCES\\logo_ikona.ico')
+          console=False , icon='logo_ikona.ico')
