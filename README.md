@@ -14,3 +14,17 @@ At the current moment, program supports only polish language version.
 - **appdata.bat** script is creating special directroiry in *AppData/Local* for program's config file
 - **installer.ps1** script is used to create **.exe** file for Windows from project files
 - **arial.ttf**, **arial_bold.ttf**, **logo_ikona.ico**, **logo2.png** files should be placed in the same directory as the **.exe** file
+
+## GALLERY
+
+### Program window, adding new person.
+![vacation manager screenshot](https://github.com/MaciejGrudziaz/VACATION_MANAGER/blob/master/Screenshots/vacation_screenshot_1.PNG)
+
+### Program main window for new person.
+![vacation manager screenshot](https://github.com/MaciejGrudziaz/VACATION_MANAGER/blob/master/Screenshots/vacation_screenshot_2.PNG)
+
+### Program main window with added data.
+![vacation manager screenshot](https://github.com/MaciejGrudziaz/VACATION_MANAGER/blob/master/Screenshots/vacation_screenshot_3.PNG)
+
+### Report export example.
+![vacation manager export](https://github.com/MaciejGrudziaz/VACATION_MANAGER/blob/master/Screenshots/export.png)
